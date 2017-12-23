@@ -45,8 +45,5 @@ namespace RaysHotDogs.core
         }
 
 
-
-
-
     }
 }

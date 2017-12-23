@@ -1,1 +1,2 @@
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/xamarin/xamarin/RaysHotDogs/RaysHotDogs/obj/x86/Debug/RaysHotDogs.csproj.CoreCompileInputs.cache
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/RaysHotDogs/obj/x86/Debug/RaysHotDogs.csproj.CoreCompileInputs.cache

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{66579E4D-C4DB-4D57-8835-9B6CE60DD925}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs.core/Service/HotDogsDataService.cs">
+  <MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs>
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOSRaysHotDogs/AppDelegate.cs">
     <Files>
-      <File FileName="RaysHotDogs.core/Model/HotDog.cs" Line="4" Column="33" />
-      <File FileName="RaysHotDogs.core/Model/HotDogGroup.cs" Line="18" Column="49" />
-      <File FileName="RaysHotDogs.core/Repository/HotDogRepository.cs" Line="67" Column="9" />
-      <File FileName="RaysHotDogs.core/Service/HotDogsDataService.cs" Line="17" Column="62" />
+      <File FileName="IOSRaysHotDogs/AppDelegate.cs" Line="16" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.Default" />
