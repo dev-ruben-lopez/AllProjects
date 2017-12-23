@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{9F33CB9D-E710-49EE-A730-372B228B976B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky/Tasky.iOS/ApplicationLayer/TaskDialog.cs">
+    <Files>
+      <File FileName="Tasky/Tasky.iOS/ApplicationLayer/TaskDialog.cs" Line="14" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

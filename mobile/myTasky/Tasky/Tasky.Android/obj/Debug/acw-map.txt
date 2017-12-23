@@ -1,0 +1,4 @@
+Tasky.Droid.MainActivity, Tasky.Android;md571c29cd1839c8f1126f1c580823f59d3.MainActivity
+Tasky.Droid.MainActivity, Tasky.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md571c29cd1839c8f1126f1c580823f59d3.MainActivity
+Tasky.Droid.MainActivity;md571c29cd1839c8f1126f1c580823f59d3.MainActivity
+tasky.droid.MainActivity;md571c29cd1839c8f1126f1c580823f59d3.MainActivity
