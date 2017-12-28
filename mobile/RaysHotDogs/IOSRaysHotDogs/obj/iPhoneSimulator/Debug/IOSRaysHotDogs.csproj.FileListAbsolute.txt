@@ -1,0 +1,13 @@
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/bin/iPhoneSimulator/Debug/IOSRaysHotDogs.exe
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/bin/iPhoneSimulator/Debug/IOSRaysHotDogs.pdb
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/bin/iPhoneSimulator/Debug/Calabash.dll
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/bin/iPhoneSimulator/Debug/RaysHotDogs.core.dll
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/bin/iPhoneSimulator/Debug/RaysHotDogs.core.pdb
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/optimized/
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/IOSRaysHotDogs.csprojResolveAssemblyReference.cache
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/IOSRaysHotDogs.csproj.CoreCompileInputs.cache
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/IOSRaysHotDogs.exe
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/obj/iPhoneSimulator/Debug/IOSRaysHotDogs.pdb

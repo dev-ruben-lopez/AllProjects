@@ -1,10 +1,13 @@
-﻿<Properties StartupConfiguration="{66579E4D-C4DB-4D57-8835-9B6CE60DD925}|Default">
-  <MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs>
+﻿<Properties StartupConfiguration="{F0178725-F3CC-4410-A7AD-73889F573324}|Default">
+  <MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.21952BB2-172C-432D-8780-A0FAFF499986" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs>
-  <MonoDevelop.Ide.Workbench ActiveDocument="IOSRaysHotDogs/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOSRaysHotDogs/HotDogDetailViewController.cs">
     <Files>
-      <File FileName="IOSRaysHotDogs/AppDelegate.cs" Line="16" Column="17" />
+      <File FileName="IOSRaysHotDogs/Main.storyboard" />
+      <File FileName="IOSRaysHotDogs/HotDogDetailViewController.cs" Line="50" Column="36" />
+      <File FileName="RaysHotDogs.core/Service/HotDogsDataService.cs" Line="47" Column="1" />
+      <File FileName="RaysHotDogs.core/Repository/HotDogRepository.cs" Line="127" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.Default" />

@@ -79,8 +79,8 @@ namespace RaysHotDogs.core
                         HotDogId=1,
                         Name="The Rubens Hot Dog",
                         ShortDescription="The best hot dog in the planet",
-                        Description="The Rubens Hot Dog ...",
-                        ImagePath="",
+                        Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+                        ImagePath=GetAppDirectoryPath() + "Images/" + "hotdog1.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -92,8 +92,8 @@ namespace RaysHotDogs.core
                         HotDogId=2,
                         Name="The Hot Dog",
                         ShortDescription="The second best hot dog in the planet",
-                        Description="The Hot Dog ...",
-                        ImagePath="",
+                        Description="in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        ImagePath=GetAppDirectoryPath() + "Images/" + "hotdog2.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -106,7 +106,7 @@ namespace RaysHotDogs.core
                         Name="The Awesome Hot Dog",
                         ShortDescription="The second best hot dog in the planet by far",
                         Description="The Rubens Hot Dog ...",
-                        ImagePath="",
+                        ImagePath=GetAppDirectoryPath() + "Images/" + "hotdog3.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -127,7 +127,7 @@ namespace RaysHotDogs.core
                         Name="The XMen Hot Dog",
                         ShortDescription="The best hot dog in the planet",
                         Description="The Rubens Hot Dog ...",
-                        ImagePath="",
+                        ImagePath=GetAppDirectoryPath() + "Images/" + "hotdog4.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -140,7 +140,7 @@ namespace RaysHotDogs.core
                         Name="The DC Hot Dog",
                         ShortDescription="The second best hot dog in the planet",
                         Description="The Hot Dog ...",
-                        ImagePath="",
+                        ImagePath=GetAppDirectoryPath() + "Images/" + "hotdog5.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -153,7 +153,7 @@ namespace RaysHotDogs.core
                         Name="The Marvel Hot Dog",
                         ShortDescription="The second best hot dog in the planet by far",
                         Description="The Rubens Hot Dog ...",
-                        ImagePath="",
+                        ImagePath= GetAppDirectoryPath() + "hotdog6.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},
@@ -167,6 +167,14 @@ namespace RaysHotDogs.core
 
         };
 
+
+
+        //Temporal variables while switching to full Mobile Env
+
+        public static string GetAppDirectoryPath()
+        {
+            return "/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/";
+        } 
     }
 
 }
