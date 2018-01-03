@@ -99,6 +99,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Images\" />
+    <Folder Include="DataSources\" />
+    <Folder Include="Cells\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -119,6 +121,16 @@
     <Compile Include="HotDogDetailViewController.cs" />
     <Compile Include="HotDogDetailViewController.designer.cs">
       <DependentUpon>HotDogDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSources\HotDogDataSource.cs" />
+    <Compile Include="HotDogTableViewController.cs" />
+    <Compile Include="HotDogTableViewController.designer.cs">
+      <DependentUpon>HotDogTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cells\HotDoglistCell.cs" />
+    <Compile Include="HotDogCreateOrder.cs" />
+    <Compile Include="HotDogCreateOrder.designer.cs">
+      <DependentUpon>HotDogCreateOrder.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

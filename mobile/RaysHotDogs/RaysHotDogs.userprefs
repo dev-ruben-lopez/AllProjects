@@ -2,18 +2,21 @@
   <MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.21952BB2-172C-432D-8780-A0FAFF499986" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.IOSRaysHotDogs>
-  <MonoDevelop.Ide.Workbench ActiveDocument="IOSRaysHotDogs/HotDogDetailViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IOSRaysHotDogs/HotDogTableViewController.cs">
     <Files>
       <File FileName="IOSRaysHotDogs/Main.storyboard" />
       <File FileName="IOSRaysHotDogs/HotDogDetailViewController.cs" Line="50" Column="36" />
-      <File FileName="RaysHotDogs.core/Service/HotDogsDataService.cs" Line="47" Column="1" />
-      <File FileName="RaysHotDogs.core/Repository/HotDogRepository.cs" Line="127" Column="49" />
+      <File FileName="IOSRaysHotDogs/DataSources/HotDogDataSource.cs" Line="58" Column="1" />
+      <File FileName="IOSRaysHotDogs/HotDogTableViewController.cs" Line="29" Column="9" />
+      <File FileName="IOSRaysHotDogs/Cells/HotDoglistCell.cs" Line="20" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs/HotDogTableViewController.cs" relfile="IOSRaysHotDogs/HotDogTableViewController.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

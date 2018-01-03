@@ -153,7 +153,7 @@ namespace RaysHotDogs.core
                         Name="The Marvel Hot Dog",
                         ShortDescription="The second best hot dog in the planet by far",
                         Description="The Rubens Hot Dog ...",
-                        ImagePath= GetAppDirectoryPath() + "hotdog6.jpg",
+                        ImagePath= GetAppDirectoryPath() + "Images/" + "hotdog6.jpg",
                         Available=true,
                         PreparationTime=10,
                         Ingredients= new List<string>(){"regular bun", "sausage","ketchup","secret ingredients"},

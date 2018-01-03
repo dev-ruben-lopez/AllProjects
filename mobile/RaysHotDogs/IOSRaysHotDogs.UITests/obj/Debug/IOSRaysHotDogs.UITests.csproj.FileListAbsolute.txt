@@ -4,7 +4,6 @@
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/bin/Debug/Xamarin.UITest.dll
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/bin/Debug/nunit.framework.xml
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/bin/Debug/Xamarin.UITest.xml
-/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.csprojResolveAssemblyReference.cache
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.csproj.CoreCompileInputs.cache
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.dll
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.pdb
