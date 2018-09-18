@@ -7,3 +7,4 @@
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.csproj.CoreCompileInputs.cache
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.dll
 /Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.pdb
+/Users/roobenlo/Documents/GitHub/allprojects/AllProjects/mobile/RaysHotDogs/IOSRaysHotDogs.UITests/obj/Debug/IOSRaysHotDogs.UITests.csprojResolveAssemblyReference.cache
