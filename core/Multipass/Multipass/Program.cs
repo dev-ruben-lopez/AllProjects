@@ -8,17 +8,20 @@ namespace Multipass
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            DoOne(10);
+            var ares = DoOne(10);
             Console.Write("Resultado ?");
+            Console.Write(ares.Result);
+
             Console.Read();
 
         }
 
         
-        static async void DoOne(int param)
+        static async Task<int> DoOne(int param)
         {
-            await Task.Delay(10000);
-            Console.Write("El resultado es : " + (param * 21).ToString()) ;
+            var res = (param * 21) ; 
+            await Task.Delay(5000);
+            return res;
         }
     }
 }
