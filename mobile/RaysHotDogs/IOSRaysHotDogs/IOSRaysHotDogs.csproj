@@ -103,7 +103,6 @@
     <Folder Include="Cells\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
@@ -128,10 +127,6 @@
       <DependentUpon>HotDogTableViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Cells\HotDoglistCell.cs" />
-    <Compile Include="HotDogCreateOrder.cs" />
-    <Compile Include="HotDogCreateOrder.designer.cs">
-      <DependentUpon>HotDogCreateOrder.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.core\RaysHotDogs.core.csproj">

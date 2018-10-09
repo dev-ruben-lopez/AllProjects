@@ -14,5 +14,8 @@ namespace IOSRaysHotDogs
     [Register ("HotDogTableViewController")]
     partial class HotDogTableViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

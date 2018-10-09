@@ -1,0 +1,14 @@
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\DataGenerator.deps.json
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\DataGenerator.runtimeconfig.json
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\DataGenerator.runtimeconfig.dev.json
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\DataGenerator.dll
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.csprojAssemblyReference.cache
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.csproj.CoreCompileInputs.cache
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.AssemblyInfoInputs.cache
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.AssemblyInfo.cs
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\DataGenerator.pdb
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\CityInfo.API.dll
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\bin\Debug\netcoreapp2.1\CityInfo.API.pdb
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.csproj.CopyComplete
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.dll
+D:\src\git\AllProjects\core\CityInfo.API\DataGenerator\obj\Debug\netcoreapp2.1\DataGenerator.pdb
