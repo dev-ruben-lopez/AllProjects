@@ -1,4 +1,5 @@
 ﻿using CityInfo.API.Models;
+using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -11,35 +12,28 @@ namespace CityInfo.API
 {
     public class CitiesDataStore
     {
-        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        public static CitiesDataStore Current { get; } 
         public IEnumerable<CityDto> Cities { get; set; }
-        public CitiesDataStore()
+        private IHostingEnvironment _env;
+
+        private IHostingEnvironment _hostingEnvironment;
+        private string projectRootFolder;
+        public CitiesDataStore(IHostingEnvironment env)
         {
 
-            string filepath = @"D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\Data\CitiesFakeData.json";
-            string result = string.Empty;
+            _env = env;
+
+            string filepath = Path.Combine(_env.ContentRootPath,  @"\Data\CitiesFakeData.json");
+
+            if (!File.Exists(filepath))
+                throw new FileNotFoundException(filepath);
+
             using (StreamReader r = new StreamReader(filepath))
             {
                 var json = r.ReadToEnd();
-                //var jobj = JObject.Parse(json);
                 Cities = JsonConvert.DeserializeObject<IEnumerable<CityDto>>(json);
 
             }
-              /*  Cities = new List<CityDto>()
-            {
-                new CityDto()
-                {
-                    Id = 1,
-                    Name = "New York",
-                    Description = "The one that Americans think is the capital of the world.",
-                },
-                new CityDto()
-                {
-                    Id =2,
-                    Name="Paris",
-                    Description = "City of lights"
-                }
-            };*/
 
         }
 

@@ -10,6 +10,7 @@ namespace CityInfo.API.Controller
     [Route("api/cities")] //as all the methods in this controller are going to use this prefix route 
     public class CitiesController : ControllerBase
     {
+        private CitiesDataStore citiesDataStore = new CitiesDataStore();
 
         [HttpGet()]
         public IActionResult GetCities()
