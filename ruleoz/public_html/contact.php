@@ -36,7 +36,7 @@
 		{
 			if (mail ($to, $subject, $body, $from)) 
 			{
-				$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+				$result='<div class="alert alert-success">Thank You! I will be in touch.</div>';
 			} else {
 					$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later or send an email to rubenlopez8086@gmail.com</div>';
 				}
@@ -206,7 +206,9 @@
   				<div class="row">                   
   				<h3 class="page-header">Contact me</h3>
   				<ul class="list-unstyled">
-  				<li> <h4>Call Me :</h4> <br><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span><span> Australia (+61) 406191412 </span></li>
+				  <li> <h4>Call Me :</h4> <br><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span>
+				  	<button type="button" onclick="window.open('rubendlopez-summary-contact.pdf')" class="btn btn-xs btn-info">Download Summary and Contact Info</button>
+				  </li>
   				<hr>
   				<li> <h4>More options:</h4>
   					<a class="btn btn-block btn-social btn-twitter" onclick="window.open('http://twitter.com/rubendariol')">
