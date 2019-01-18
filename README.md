@@ -3,9 +3,7 @@ Hi, this repository contains personal (not commercial) code. Here is possible to
 
 
 # Personal Repository for Ruben D. Lopez
-
 This is my repository (public) where the code has been created or modified for me. 
-
 I can use any of these repositories for demos and for jobs interviews as a proof of my job.
 
 
