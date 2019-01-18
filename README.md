@@ -7,4 +7,4 @@ This is my repository (public) where the code has been created or modified for m
 I can use any of these repositories for demos and for jobs interviews as a proof of my job.
 
 
-For more information about my job, go to [Link](http://www.rubendlopez.com) 
+For more information about my job, go to [RubenDLopez.com](http://www.rubendlopez.com) 
