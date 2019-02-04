@@ -1,5 +1,9 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "YzT7xYyg+XdCjSnXXrRL1rB72/xfcigGfZDdK75KKqYz7Tlhf2AdjWaFBfWconRq/YXeBrWF8WN5qEnUlKHd+Q==",
+=======
+  "dgSpecHash": "RuDckYTjhe4+J6MB5bWChAklMqTtrf9i+hO/x2qKee0A4RMUPeeD6ONjwilvYYT3tx+W6eDLwPLPHYaWTWSyxw==",
+>>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
   "success": true
 }

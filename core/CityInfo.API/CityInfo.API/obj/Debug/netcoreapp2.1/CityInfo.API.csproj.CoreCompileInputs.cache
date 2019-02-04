@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 20fef1ee7646071e67f0356f39f5b1bc5dec9938
+=======
+738c9f65f1b415cb0635fb4683753aa577a859e5
+>>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
