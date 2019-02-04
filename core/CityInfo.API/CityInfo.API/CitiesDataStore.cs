@@ -23,7 +23,7 @@ namespace CityInfo.API
 
             _env = env;
 
-            string filepath = Path.Combine(_env.ContentRootPath,  @"\Data\CitiesFakeData.json");
+            string filepath = Path.Combine(_env.ContentRootPath,  "Data\\CitiesFakeData.json");
 
             if (!File.Exists(filepath))
                 throw new FileNotFoundException(filepath);
