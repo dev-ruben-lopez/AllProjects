@@ -14,7 +14,7 @@ namespace DataGenerator
 
             //Define the data rules for the generation
 
-            var testPointsOfInterest = new Faker<PointsOfInterestDto>()
+            var testPointsOfInterest = new Faker<PointsOfInterestForCreationDto>()
                 .RuleFor(p => p.Id, f => f.IndexFaker)
                 .RuleFor(p => p.Name, f => f.Lorem.Word())
                 .RuleFor(p => p.Description, f => f.Lorem.Paragraph(1));
