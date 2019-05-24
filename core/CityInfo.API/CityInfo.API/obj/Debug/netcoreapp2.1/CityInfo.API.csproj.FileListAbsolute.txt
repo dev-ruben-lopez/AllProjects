@@ -26,3 +26,8 @@ C:\src\repos\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\
 C:\src\repos\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
 C:\src\repos\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
 C:\src\repos\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\api\cities\netcoreapp2.1\CityInfo.API.deps.json
+C:\api\cities\netcoreapp2.1\CityInfo.API.runtimeconfig.json
+C:\api\cities\netcoreapp2.1\CityInfo.API.runtimeconfig.dev.json
+C:\api\cities\netcoreapp2.1\CityInfo.API.dll
+C:\api\cities\netcoreapp2.1\CityInfo.API.pdb

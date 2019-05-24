@@ -16,9 +16,10 @@ namespace CityInfo.API
         public CitiesDataStore()
         {
 
-            
-            string filepath = @"D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\Data\CitiesFakeData.json";
-            string result = string.Empty;
+
+            //TODO: get the dynamic directory
+            string filepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory.Split("bin")[0], "Data\\CitiesFakeData.json");
+            //string result = string.Empty;
             using (StreamReader r = new StreamReader(filepath))
             {
                 var json = r.ReadToEnd();
