@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5001",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:58742",
+      "sslPort": 44387
     }
   },
   "profiles": {
@@ -12,10 +12,14 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
       "launchUrl": "api/cities",
 =======
       "launchUrl": "/api/cities",
 >>>>>>> dxc-api-001
+=======
+      "launchUrl": "/api/cities",
+>>>>>>> 32ac13fa944b07ee3a6a9821359d6962234e2d70
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

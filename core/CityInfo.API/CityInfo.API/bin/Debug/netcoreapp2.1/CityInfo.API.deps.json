@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "798a76cf161198097d79b616022d7fef5d6757ad"
+    "signature": "83e68eff3eebd9c90a4dc990b3013afa4892cac2"
   },
   "compilationOptions": {
     "defines": [
@@ -27,8 +27,7 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Mvc": "2.1.3",
           "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.5",
-          "SimpleInjector.Integration.AspNetCore.Mvc": "4.5.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.5"
         },
         "runtime": {
           "CityInfo.API.dll": {}
@@ -631,73 +630,6 @@
         },
         "compile": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
-        }
-      },
-      "SimpleInjector/4.5.1": {
-        "dependencies": {
-          "System.ComponentModel": "4.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.dll": {
-            "assemblyVersion": "4.5.1.0",
-            "fileVersion": "4.5.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.dll": {}
-        }
-      },
-      "SimpleInjector.Integration.AspNetCore/4.5.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "SimpleInjector": "4.5.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {
-            "assemblyVersion": "4.5.1.0",
-            "fileVersion": "4.5.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
-        }
-      },
-      "SimpleInjector.Integration.AspNetCore.Mvc/4.5.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor": "2.1.3",
-          "Microsoft.AspNetCore.Mvc.RazorPages": "2.1.3",
-          "SimpleInjector.Integration.AspNetCore.Mvc.Core": "4.5.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.dll": {
-            "assemblyVersion": "4.5.1.0",
-            "fileVersion": "4.5.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.dll": {}
-        }
-      },
-      "SimpleInjector.Integration.AspNetCore.Mvc.Core/4.5.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.1.3",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.3",
-          "SimpleInjector.Integration.AspNetCore": "4.5.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.Core.dll": {
-            "assemblyVersion": "4.5.1.0",
-            "fileVersion": "4.5.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.Core.dll": {}
-        }
-      },
-      "System.ComponentModel/4.0.1": {
-        "dependencies": {
-          "System.Runtime": "4.3.0"
         }
       },
       "System.Composition/1.0.31": {
@@ -3832,41 +3764,6 @@
       "sha512": "sha512-qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
-    },
-    "SimpleInjector/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qCSxKRRbg6lKfCZNGEK0ezldKPEidU3pB2NJ17Mh7x81b1ISRBdf2iUfjUh+mhvOohuWlFVVErRNxMJWbbx9Jg==",
-      "path": "simpleinjector/4.5.1",
-      "hashPath": "simpleinjector.4.5.1.nupkg.sha512"
-    },
-    "SimpleInjector.Integration.AspNetCore/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nHawq0gXXGOS9sxwK1hkePG39Ilc4QwaV0BFvH1Vry924/BhFDetoxfY7R8DFVScGvmn2Wq8Q/ZHb4a1iF4RMA==",
-      "path": "simpleinjector.integration.aspnetcore/4.5.1",
-      "hashPath": "simpleinjector.integration.aspnetcore.4.5.1.nupkg.sha512"
-    },
-    "SimpleInjector.Integration.AspNetCore.Mvc/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BAStB4uoepi5JNUVI9qTY7LuWb5CWh7/kexbUsH6CKIot73O/OqDo1jvuxQgcJNwN7JolAJpOfuW6VehNFspZA==",
-      "path": "simpleinjector.integration.aspnetcore.mvc/4.5.1",
-      "hashPath": "simpleinjector.integration.aspnetcore.mvc.4.5.1.nupkg.sha512"
-    },
-    "SimpleInjector.Integration.AspNetCore.Mvc.Core/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gH5pEGy85dC9LuN3fAVHpQ8LZ4dSO7hhePAK65YhsUVnOC2R8yQKmqHjvsgx7U1E3Y2mogsTf42gQy470XS3Jw==",
-      "path": "simpleinjector.integration.aspnetcore.mvc.core/4.5.1",
-      "hashPath": "simpleinjector.integration.aspnetcore.mvc.core.4.5.1.nupkg.sha512"
-    },
-    "System.ComponentModel/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
-      "path": "system.componentmodel/4.0.1",
-      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
     },
     "System.Composition/1.0.31": {
       "type": "package",
