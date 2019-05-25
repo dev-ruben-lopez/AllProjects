@@ -25,7 +25,13 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="bootstrap/docs/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
-
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -49,9 +55,7 @@
                 <span class="icon-bar"></span>
               </button>
               	<a id="divSiteTitle" href="index.html">Ruben Dario Lopez</a><br/>
-              	<a id="divTagLine" href="index.html" >IT Business Analyst</a>
-            
-            
+              	<a id="divTagLine" href="index.html" >Senior Analyst Programmer</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -193,6 +197,15 @@
 	            <h4>Books</h4>
 	            <ol class="list-unstyled">
 	              <li>
+									<img class="img-polaroid" src="images/books/cleancode.jpeg"/>
+									<br>
+									<a target="_blank" href="https://www.amazon.com.au/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?ie=UTF8&qid=1548157196&sr=8-1&keywords=clean+code">
+										Clean Code: A Handbook of Agile Software Craftsmanship,  Robert C. Martin (Author)</a>
+										<small>From tiny and simple tips that can make code in any language cleaner, to great advice for code architecture.</small>
+									</li>
+									<hr>
+	
+								<li>
 	              <img class="img-polaroid" src="images/books/strategic-management-rothaermel.jpg"/>
 	              <br>
 	              <a target="_blank" href="http://www.amazon.com/Strategic-Management-Concepts-Frank-Rothaermel/dp/0077645065/ref=sr_1_fkmr0_1?s=books&ie=UTF8&qid=1463813139&sr=1-1-fkmr0&keywords=Strategy+and+Management+Research+Rothaermel">
@@ -281,35 +294,15 @@
 
 	</div>
 </div> <!-- end of container -->
-<!-- FOOTER -->
- <footer>
-      <div class="div-footer">
-   					
-	    			<p id="p-footer"><a style="color:lightblue;" href="#">Back to top</a> | <a style="color:lightblue;" href="contact.php">Contact Me</a></p>
-	    			<div class="container">
-	    				<a class="btn btn-social-icon btn-xs btn-twitter" onclick="window.open('http://twitter.com/rubendariol')"><i class="fa fa-twitter"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-google-plus" onclick="window.open('https://plus.google.com/u/0/111743121626110304184/photos/p/pub')"><i class="fa fa-google-plus"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-instagram" onclick="window.open('https://instagram.com/roblopmac/')"><i class="fa fa-instagram"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-linkedin" onclick="window.open('http://au.linkedin.com/in/rubendariolopez')"><i class="fa fa-linkedin"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-pinterest" onclick="window.open('https://www.pinterest.com/lopez5339/')"><i class="fa fa-pinterest"></i></a>
-        			</div>
-       				<br>
-        			<p id="p-footer">All photos by <a target="_blank" href="http://500px.com/photorubenlopez">RDL Photo - ∞ </a></p>
-        			<br>
+<div id='footer'></div>
 
-        			<p id="p-footer">2015</p>
-					<p id="p-footer">Ruben Dario Lopez</p>        			
-      				
-     </div>
- </footer>
+<script>
+	$(function(){
+		$('#footer').load('footer.html');
+	});
+</script>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+   
   </body>
 </html>

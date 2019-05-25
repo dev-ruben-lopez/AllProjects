@@ -5,8 +5,8 @@
 		$message = $_POST['message'];
 		$human = $_POST['human'];
 		$from = 'RDLM Contact Form'; 
-		$to = 'bpm.rubenlopez@gmail.com'; 
-		$subject = 'Message from Contact RDLM ';
+		$to = 'rubenlopez8086@gmail.com'; 
+		$subject = 'rubenDlopez.com email ';
 		$errCaptcha = "";
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -36,9 +36,9 @@
 		{
 			if (mail ($to, $subject, $body, $from)) 
 			{
-				$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+				$result='<div class="alert alert-success">Thank You! I will be in touch.</div>';
 			} else {
-					$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
+					$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later or send an email to rubenlopez8086@gmail.com</div>';
 				}
 			}
 		}
@@ -53,7 +53,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ruben Lopez - Contact</title>
-    <meta name="description" content="Ruben Lopez, Software Developer located in Australia. Expert in BPM, Process Implementation and Systems Integration.">
+    <meta name="description" content="Ruben D. Lopez, Senior Analyst Programmer located in Australia. Expert in BPM, Process Implementation and Systems Integration.">
     <meta name="author" content="Ruben Dario Lopez">
     <link rel="icon" href="bootstrap/docs/favicon.ico">
 
@@ -70,7 +70,14 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="bootstrap/docs/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
-
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -94,7 +101,7 @@
                 <span class="icon-bar"></span>
               </button>
               	<a id="divSiteTitle" href="index.html">Ruben Dario Lopez</a><br/>
-              	<a id="divTagLine" href="index.html" >IT Business Analyst</a>
+              	<a id="divTagLine" href="index.html" >Senior Analyst Programmer</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -180,7 +187,7 @@
 					<div class="form-group">
 						<label for="message" class="col-sm-2 control-label">Message</label>
 						<div class="col-sm-10">
-							<div class="g-recaptcha" data-sitekey="6LeBcgUTAAAAAN7W8iqND7ancXpFEE2WO1tWmUYh"></div>
+							<div class="g-recaptcha" data-sitekey="6Ld1a4IUAAAAAAmqIS7AVdzszBVm0SaGEiuS8DEF"></div>
 							<?php echo "<p class='text-danger'>$errCaptcha</p>";?>
 						</div>
 					</div>
@@ -199,20 +206,17 @@
   				<div class="row">                   
   				<h3 class="page-header">Contact me</h3>
   				<ul class="list-unstyled">
-  				<li> <h4>Call Me :</h4> <br><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span><span> Australia (+61) 406191412 </span></li>
+				  <li> <h4>Call Me :</h4> <br><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span>
+				  	<button type="button" onclick="window.open('rubendlopez-summary-contact.pdf')" class="btn btn-xs btn-info">Download Summary and Contact Info</button>
+				  </li>
   				<hr>
   				<li> <h4>More options:</h4>
   					<a class="btn btn-block btn-social btn-twitter" onclick="window.open('http://twitter.com/rubendariol')">
-           			 <i class="fa fa-twitter"></i> Follow me on Twitter</a>
-					<a class="btn btn-block btn-social btn-google-plus" onclick="window.open('https://plus.google.com/u/0/111743121626110304184/photos/p/pub')"">
-					 <i class="fa fa-google-plus"></i>Check my wall in G+</a>
+        			<i class="fa fa-twitter"></i> Follow me on Twitter</a>
 		        	<a class="btn btn-block btn-social btn-instagram" onclick="window.open('https://instagram.com/roblopmac/')">
 		            <i class="fa fa-instagram"></i> Like this web photos? See more ! </a>
 		            <a class="btn btn-block btn-social btn-linkedin" onclick="window.open('http://au.linkedin.com/in/rubendariolopez')">
 			        <i class="fa fa-linkedin"></i>See my references here</a>
-			        <a class="btn btn-block btn-social btn-pinterest" onclick="window.open('https://www.pinterest.com/lopez5339/')">
-		            <i class="fa fa-pinterest"></i>My interests about IT</a>
-			            
         			</li>
   				</ul>
   				
@@ -224,37 +228,14 @@
 
 
 <div class="container"><hr></div>
+<div id='footer'></div>
 
-<!-- FOOTER -->
- <footer>
-      <div class="div-footer">
-   					
-	    			<p id="p-footer"><a style="color:lightblue;" href="#">Back to top</a> | <a style="color:lightblue;" href="contact.php">Contact Me</a></p>
-	    			<div class="container">
-	    				<a class="btn btn-social-icon btn-xs btn-twitter" onclick="window.open('http://twitter.com/rubendariol')"><i class="fa fa-twitter"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-google-plus" onclick="window.open('https://plus.google.com/u/0/111743121626110304184/photos/p/pub')"><i class="fa fa-google-plus"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-instagram" onclick="window.open('https://instagram.com/roblopmac/')"><i class="fa fa-instagram"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-linkedin" onclick="window.open('http://au.linkedin.com/in/rubendariolopez')"><i class="fa fa-linkedin"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-pinterest" onclick="window.open('https://www.pinterest.com/lopez5339/')"><i class="fa fa-pinterest"></i></a>
-        			</div>
-       				<br>
-        			<p id="p-footer">All photos by <a target="_blank" href="http://500px.com/photorubenlopez">RDL Photo - � </a></p>
-        			<br>
+<script>
+	$(function(){
+		$('#footer').load('footer.html');
+	});
+</script>
 
-        			<p id="p-footer">2015</p>
-					<p id="p-footer">Ruben Dario Lopez</p>        			
-      				
-     </div>
- </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
   </body>
 </html>
