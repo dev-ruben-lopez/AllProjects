@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.AspNetCore.Hosting;
 using System.Threading.Tasks;
 
 namespace CityInfo.API.Controller
@@ -11,30 +10,21 @@ namespace CityInfo.API.Controller
     [Route("api/cities")] //as all the methods in this controller are going to use this prefix route 
     public class CitiesController : ControllerBase
     {
-        private IHostingEnvironment _env;
-        private CitiesDataStore _citiesDataStore;
-
-        private CitiesDataStore cities;
-
-        public CitiesController(IHostingEnvironment env)
-        {
-            _env = env;
-            _citiesDataStore = new CitiesDataStore(_env);
-            cities = new CitiesDataStore(_env);
-
-        }
 
         [HttpGet()]
         public IActionResult GetCities()
         {
-            return Ok(new JsonResult( cities.Cities));
+            return Ok(new JsonResult(CitiesDataStore.Current.Cities));
         }
 
         [HttpGet("{id}")]
         public IActionResult GetCities(int id)
         {
-            var city = new JsonResult(cities.Cities.First(c => c.Id.Equals(id)));
-            return Ok(city);
+            var city = new JsonResult(CitiesDataStore.Current.Cities.Where(c => c.Id.Equals(id)).First());
+            if (city == null)
+                return NotFound();
+            else
+                return Ok(city);
         }
             
 
