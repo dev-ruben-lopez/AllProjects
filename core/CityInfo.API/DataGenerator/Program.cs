@@ -1,4 +1,4 @@
-﻿using Bogus;
+﻿using Bogus;//Data generator tool
 using System;
 using CityInfo.API.Models;
 using Newtonsoft.Json;
