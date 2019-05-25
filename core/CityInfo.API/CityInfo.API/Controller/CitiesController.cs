@@ -14,20 +14,29 @@ namespace CityInfo.API.Controller
     {
         private IHostingEnvironment _env;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private CitiesDataStore _citiesDataStore;
 =======
 
         private CitiesDataStore cities;
 >>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
+=======
+
+        private CitiesDataStore cities;
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
 
         public CitiesController(IHostingEnvironment env)
         {
             _env = env;
 <<<<<<< HEAD
+<<<<<<< HEAD
             _citiesDataStore = new CitiesDataStore(_env);
 =======
             cities = new CitiesDataStore(_env);
 >>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
+=======
+            cities = new CitiesDataStore(_env);
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
         }
 
         [HttpGet()]

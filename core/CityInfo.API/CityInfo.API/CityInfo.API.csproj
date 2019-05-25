@@ -22,4 +22,10 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Data\CitiesFakeData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -12,8 +12,11 @@ D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\Ci
 D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
 D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
 =======
+=======
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
 C:\src\git\per\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csproj.CoreCompileInputs.cache
 C:\src\git\per\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
 C:\src\git\per\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
@@ -29,4 +32,7 @@ C:\src\git\per\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.A
 C:\src\git\per\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
 C:\src\git\per\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
 C:\src\git\per\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\Data\CitiesFakeData.json
+<<<<<<< HEAD
 >>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
+=======
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
