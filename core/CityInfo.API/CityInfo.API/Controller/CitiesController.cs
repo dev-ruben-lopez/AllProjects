@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Hosting;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 
 namespace CityInfo.API.Controller
 {
@@ -12,28 +13,43 @@ namespace CityInfo.API.Controller
     public class CitiesController : ControllerBase
     {
         private IHostingEnvironment _env;
+<<<<<<< HEAD
+<<<<<<< HEAD
         private CitiesDataStore _citiesDataStore;
+=======
+
+        private CitiesDataStore cities;
+>>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
+=======
+
+        private CitiesDataStore cities;
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
 
         public CitiesController(IHostingEnvironment env)
         {
             _env = env;
+<<<<<<< HEAD
+<<<<<<< HEAD
             _citiesDataStore = new CitiesDataStore(_env);
+=======
+            cities = new CitiesDataStore(_env);
+>>>>>>> Fixing ID server configuration;   Fixing Call from content directory from CitiesController to fake CitiesDataStore
+=======
+            cities = new CitiesDataStore(_env);
+>>>>>>> 03015a7828e0a5b77d20be90f930b2b321eac05d
         }
 
         [HttpGet()]
         public IActionResult GetCities()
         {
-            return Ok(new JsonResult(CitiesDataStore.Current.Cities));
+            return Ok(new JsonResult( cities.Cities));
         }
 
         [HttpGet("{id}")]
         public IActionResult GetCities(int id)
         {
-            var city = new JsonResult(CitiesDataStore.Current.Cities.Where(c => c.Id.Equals(id)).First());
-            if (city == null)
-                return NotFound();
-            else
-                return Ok(city);
+            var city = new JsonResult(cities.Cities.First(c => c.Id.Equals(id)));
+            return Ok(city);
         }
             
 

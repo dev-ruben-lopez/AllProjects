@@ -11,3 +11,17 @@ D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityS
 D:\src\git\AllProjects\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.pdb
 D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.dll
 D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.pdb
+C:\src\git\per\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.deps.json
+C:\src\git\per\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.runtimeconfig.json
+C:\src\git\per\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.runtimeconfig.dev.json
+C:\src\git\per\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.dll
+C:\src\git\per\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.pdb
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.csprojAssemblyReference.cache
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.csproj.CoreCompileInputs.cache
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.RazorAssemblyInfo.cache
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.RazorAssemblyInfo.cs
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.AssemblyInfoInputs.cache
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.AssemblyInfo.cs
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.RazorTargetAssemblyInfo.cache
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.dll
+C:\src\git\per\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.pdb

@@ -16,4 +16,16 @@
     <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="4.5.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Data\CitiesFakeData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Data\CitiesFakeData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
