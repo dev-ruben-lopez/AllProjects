@@ -21,6 +21,7 @@ namespace CityInfo.API
         public CitiesDataStore(IHostingEnvironment env)
         {
 
+<<<<<<< HEAD
             _env = env;
 
             string filepath = Path.Combine(_env.ContentRootPath,  "Data\\CitiesFakeData.json");
@@ -28,6 +29,12 @@ namespace CityInfo.API
             if (!File.Exists(filepath))
                 throw new FileNotFoundException(filepath); 
 
+=======
+
+            //TODO: get the dynamic directory
+            string filepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory.Split("bin")[0], "Data\\CitiesFakeData.json");
+            //string result = string.Empty;
+>>>>>>> dxc-api-001
             using (StreamReader r = new StreamReader(filepath))
             {
                 var json = r.ReadToEnd();
