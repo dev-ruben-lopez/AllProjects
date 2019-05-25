@@ -26,7 +26,7 @@ namespace CityInfo.API
             string filepath = Path.Combine(_env.ContentRootPath,  @"\Data\CitiesFakeData.json");
 
             if (!File.Exists(filepath))
-                throw new FileNotFoundException(filepath);
+                throw new FileNotFoundException(filepath); 
 
             using (StreamReader r = new StreamReader(filepath))
             {

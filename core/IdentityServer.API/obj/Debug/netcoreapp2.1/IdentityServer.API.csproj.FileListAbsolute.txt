@@ -2,7 +2,6 @@ D:\src\git\AllProjects\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityS
 D:\src\git\AllProjects\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.runtimeconfig.json
 D:\src\git\AllProjects\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.runtimeconfig.dev.json
 D:\src\git\AllProjects\core\IdentityServer.API\bin\Debug\netcoreapp2.1\IdentityServer.API.dll
-D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.csprojAssemblyReference.cache
 D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.csproj.CoreCompileInputs.cache
 D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.RazorAssemblyInfo.cache
 D:\src\git\AllProjects\core\IdentityServer.API\obj\Debug\netcoreapp2.1\IdentityServer.API.RazorAssemblyInfo.cs
