@@ -96,8 +96,16 @@ namespace CityInfo.API.Controller
         }
 
 
+        /// <summary>
+        /// Implementation of PATCH for the PointOfInterest object
+        /// NOTE : in the original example, it should work with PointOfInterestForUpdateDto, but is not, so using directly PointOfInterestDto
+        /// </summary>
+        /// <param name="cityId"></param>
+        /// <param name="id"></param>
+        /// <param name="patchDoc"></param>
+        /// <returns></returns>
         [HttpPatch("{cityId}/pointofinterest/{id}")]
-        public IActionResult PartialUpdatePointOfInterest(int cityId, int id,[FromBody] JsonPatchDocument<PointsOfInterestForCreationDto> patchDoc)
+        public IActionResult PartialUpdatePointOfInterest(int cityId, int id,[FromBody] JsonPatchDocument<PointsOfInterestDto> patchDoc)
         {
             if (patchDoc == null)
                 return BadRequest(ModelState);
@@ -110,26 +118,28 @@ namespace CityInfo.API.Controller
             }
 
 
-            var currentPointOfInterest = CitiesDataStore.Current.Cities.SelectMany(c => c.PointOfIntererest).FirstOrDefault(p => p.Id == id);
-            if (currentPointOfInterest == null)
+
+            var pointOfInterestFromDB = city.PointOfIntererest.FirstOrDefault(p => p.Id == id);
+            if (pointOfInterestFromDB == null)
             {
                 ModelState.AddModelError("", "Point Id not found");
                 return BadRequest(ModelState);
             }
 
-
-
+            /*
             var pointOfInterestToPatch = new PointsOfInterestForCreationDto() {
-                Name = currentPointOfInterest.Name,
-                Description = currentPointOfInterest.Description
+                Name = pointOfInterestFromDB.Name,
+                Description = pointOfInterestFromDB.Description
             };
+            */
 
-
-
-            patchDoc.ApplyTo(pointOfInterestToPatch, ModelState);
+            patchDoc.ApplyTo(pointOfInterestFromDB, ModelState);
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+
+
+
 
             return NoContent();
 

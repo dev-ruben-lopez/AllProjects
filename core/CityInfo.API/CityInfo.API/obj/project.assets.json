@@ -12417,11 +12417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\repos\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+      "projectUniqueName": "C:\\src\\git\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
       "projectName": "CityInfo.API",
-      "projectPath": "C:\\src\\repos\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+      "projectPath": "C:\\src\\git\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
       "packagesPath": "C:\\Users\\rlopezmachad\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\repos\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\obj\\",
+      "outputPath": "C:\\src\\git\\AllProjects\\core\\CityInfo.API\\CityInfo.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
