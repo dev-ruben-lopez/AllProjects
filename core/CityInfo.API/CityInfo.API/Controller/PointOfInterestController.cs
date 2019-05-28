@@ -1,6 +1,8 @@
 ﻿using CityInfo.API.Models;
+using CityInfo.API.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,23 @@ namespace CityInfo.API.Controller
     [Route("api/cities")]
     public class PointOfInterestController : ControllerBase
     {
+
+        //props and objects to inject
+        private IMailService _mailService;
+        private ILogger<PointOfInterestController> _logger;
+
+
+        public PointOfInterestController(IMailService mailService, ILogger<PointOfInterestController> logger)
+        {
+            _mailService = mailService;
+            _logger = logger;
+
+            _logger.LogDebug("Blah !!!");
+            _logger.Log(LogLevel.Information, "Bummm!! .. I've just injected ILogger to this controller !!!");
+        }
+
+
+
         [HttpGet("{cityId}/pointofinterest")]
         public IActionResult GetPointOfInterest(int cityId)
         {
@@ -147,5 +166,30 @@ namespace CityInfo.API.Controller
         }
 
 
+
+        [HttpDelete("{cityId}/pointofinterest/{id}")]
+        public IActionResult DeletePointOfInterest(int cityId, int id)
+        {
+            _logger.LogInformation("Hello, this is DeletePointOfInterest");
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            if(city == null)
+            {
+                _logger.LogError("City not found for id " + cityId);
+                return BadRequest("City not found");
+            }
+
+            var pointOfInterest = city.PointOfIntererest.FirstOrDefault(p => p.Id == id);
+            if (pointOfInterest == null)
+            {
+                _logger.LogError("Point of interest not found for id " + id);
+                return BadRequest("Point not found");
+            }
+
+            pointOfInterest = null; // method .Remove() not available .... ???
+
+            _mailService.Send("Resource Deletetion", "Item " + id + " deleted");
+ 
+            return NoContent();
+        }
     }
 }

@@ -36,7 +36,6 @@ C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\Ci
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.dev.json
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.dll
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.pdb
-C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csproj.CoreCompileInputs.cache
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
@@ -45,3 +44,5 @@ C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\Ci
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
 C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.1\NLog.config
+C:\src\git\AllProjects\core\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
