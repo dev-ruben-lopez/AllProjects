@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using NLog;
 using NLog.Extensions.Logging;
 using NLog.Web;
+using CityInfo.API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CityInfo.API
 {
@@ -32,6 +34,16 @@ namespace CityInfo.API
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+
+            ///Set the DbContext
+            ///the ASP.NET Core configuration system reads the connection string from the appsettings.json file.
+            services.AddDbContext<CityDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            );
+
+
+
             services.AddMvc().
                 AddMvcOptions(o=>o.OutputFormatters.Add(
                     new XmlDataContractSerializerOutputFormatter()));
@@ -42,6 +54,11 @@ namespace CityInfo.API
 #else
             services.AddTransient<IMailService, CloudMailService>();
 #endif
+
+
+
+            
+
 
         }
 
