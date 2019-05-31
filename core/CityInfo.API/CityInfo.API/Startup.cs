@@ -28,9 +28,10 @@ namespace CityInfo.API
         {
             Configuration = configuration;
         }
-        
-   
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
+        // Called by the host before the Configure method to configure the app's services.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
@@ -55,27 +56,24 @@ namespace CityInfo.API
             services.AddTransient<IMailService, CloudMailService>();
 #endif
 
-
-
             
 
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, CityDbContext cityDbContext)
         {
-
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                cityDbContext.EnsureSeedDataCreatedForContextDB();
             }
             else
             {
                 app.UseExceptionHandler();
             }
-
 
             //add mvc to the request pipeline , after having added the exception handler.
             app.UseMvc();

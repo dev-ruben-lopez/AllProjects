@@ -20,6 +20,9 @@ namespace CityInfo.API.Entities
         [MaxLength(500)]
         public string Description { get; set; }
 
+        [MaxLength(500)]
+        public string WikipediaLink { get; set; }
+
         [ForeignKey("CityId")]
         public City City { get; set; }
 
