@@ -14,35 +14,20 @@ namespace CityInfo.API.Entities
             if(context.Cities.Any())
             { return; }
 
+            var testPointsOfInterest = new Faker<PointOfInterest>()
+               //.RuleFor(p => p.PointId, f => f.IndexFaker)
+               .RuleFor(p => p.PointName, f => f.Lorem.Word())
+               .RuleFor(p => p.PointDescription, f => f.Lorem.Paragraph(1));
 
-            int[] cityIds = { 1, 2, 3, 4, 5 };
 
-            foreach (int cid in cityIds)
-            {
-                var testCitiesDto = new Faker<City>()
-                    .RuleFor(c => c.Id, f => f.IndexFaker)
-                    .RuleFor(c => c.Name, f => f.Name.FirstName())
-                    .RuleFor(c => c.Description, f => f.Lorem.Paragraph(1));
+            var testCitiesDto = new Faker<City>()
+                //.RuleFor(c => c.CityId, f => f.IndexFaker)
+                .RuleFor(c => c.CityName, f => f.Name.FirstName())
+                .RuleFor(c => c.CityDescription, f => f.Lorem.Paragraph(1))
+                .RuleFor(c => c.PointOfInterest, f => testPointsOfInterest.Generate(3));
 
-                var cityFaked = testCitiesDto.Generate(1);
-                var cityId = cityFaked.Select(i => i.Id).FirstOrDefault();
-
-                var testPointsOfInterest = new Faker<PointOfInterest>()
-                .RuleFor(p => p.Id, f => f.IndexFaker)
-                .RuleFor(p => p.Name, f => f.Lorem.Word())
-                .RuleFor(p => p.Description, f => f.Lorem.Paragraph(1))
-                .RuleFor(p => p.CityId, f=> cityId);
-                
-
-                
-                var pointsFaked = testPointsOfInterest.Generate(5);
-
-                context.AddRange(cityFaked);
-                context.AddRange(pointsFaked);
-                context.SaveChanges();
-
-            }
-
+            context.AddRange(testCitiesDto.Generate(5));
+            context.SaveChanges();
 
 
         }

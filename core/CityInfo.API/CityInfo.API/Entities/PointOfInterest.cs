@@ -11,17 +11,17 @@ namespace CityInfo.API.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int PointId { get; set; }
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string PointName { get; set; }
 
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string PointDescription { get; set; }
 
         [MaxLength(500)]
-        public string WikipediaLink { get; set; }
+        public string PointWikipediaLink { get; set; }
 
         [ForeignKey("CityId")]
         public City City { get; set; }

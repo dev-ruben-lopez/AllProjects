@@ -11,15 +11,18 @@ namespace CityInfo.API.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int CityId { get; set; }
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string CityName { get; set; }
 
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string CityDescription { get; set; }
 
+
+        //just for unit test , allow to create data using Fakers (one to many navigation)
+        public IEnumerable<PointOfInterest> PointOfInterest { get; set; }
 
     }
 }

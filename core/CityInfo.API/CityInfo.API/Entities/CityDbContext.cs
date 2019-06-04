@@ -14,8 +14,8 @@ namespace CityInfo.API.Entities
 
         public CityDbContext(DbContextOptions<CityDbContext> options) : base(options)
         {
-            //Database.EnsureCreated();
-            Database.Migrate(); //this is for using Migration tools, and it will create the DB if none, or update 
+            Database.EnsureCreated();
+            //Database.Migrate(); //this is for using Migration tools, and it will create the DB if none, or update 
         }
 
 
