@@ -23,7 +23,13 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="bootstrap/docs/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
-
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -78,7 +84,7 @@
                 <div class="col-md-8">
 
                     <h1 style="margin-top:50px; color:lightblue">Oops !</h1>
-                    <h2 style="color:white;">If you are trying to go to the final frontier, I'm sorry but this website cannot help you.</h2>
+                    <h2 style="color:white;">You tried to reach the final frontier, but this website cannot help you.</h2>
 
                     <p style="color:white;">Please try another option from the top menu. Thanks.</p>
 				</div>
@@ -87,37 +93,13 @@
 <div class="container" style="margin-top:100px; margin-bottom:100px;">
 	<hr>	
 </div>
+<script>
+	$(function(){
+		$('#footer').load('footer.html');
+	});
+</script>
 
 
-<!-- FOOTER -->
- <footer>
-      <div class="div-footer">
-   					
-	    			<p id="p-footer"><a style="color:lightblue;" href="#">Back to top</a> | <a style="color:lightblue;" href="contact.php">Contact Me</a></p>
-	    			<div class="container">
-	    				<a class="btn btn-social-icon btn-xs btn-twitter" onclick="window.open('http://twitter.com/rubendariol')"><i class="fa fa-twitter"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-google-plus" onclick="window.open('https://plus.google.com/u/0/111743121626110304184/photos/p/pub')"><i class="fa fa-google-plus"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-instagram" onclick="window.open('https://instagram.com/roblopmac/')"><i class="fa fa-instagram"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-linkedin" onclick="window.open('http://au.linkedin.com/in/rubendariolopez')"><i class="fa fa-linkedin"></i></a>
-						<a class="btn btn-social-icon btn-xs btn-pinterest" onclick="window.open('https://www.pinterest.com/lopez5339/')"><i class="fa fa-pinterest"></i></a>
-        			</div>
-       				<br>
-        			<p id="p-footer">All photos by <a target="_blank" href="http://500px.com/photorubenlopez">RDL Photo - ∞ </a></p>
-        			<br>
-
-        			<p id="p-footer">2015</p>
-					<p id="p-footer">Ruben Dario Lopez</p>        			
-      				
-     </div>
- </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+   
   </body>
 </html>
