@@ -1,0 +1,11 @@
+<Target Name="CopyMicrosoftAspNetCoreMvcDll" AfterTargets="Build">
+  <ItemGroup>
+    <MvcLib Include="$([System.IO.Path]::Combine('$(UserProfile)', '.nuget', 'packages', 'microsoft.aspnetcore.mvc', '2.2.0', 'lib', 'netstandard2.0', 'Microsoft.AspNetCore.Mvc.dll'))" />
+  </ItemGroup>
+
+  <Copy
+    SourceFiles="@(MvcLib)"
+    DestinationFolder="$(OutputPath)"
+    SkipUnchangedFiles="true"
+    Condition="Exists('%(MvcLib.Identity)')" />
+</Target>
