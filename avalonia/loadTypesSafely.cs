@@ -19,3 +19,31 @@ catch (ReflectionTypeLoadException ex)
         Console.WriteLine("  Loader error: " + loaderEx?.Message);
     }
 }
+
+
+
+public static class AssemblyExtensions
+{
+    public static Type[] SafeGetExportedTypes(this Assembly assembly)
+    {
+        try
+        {
+            return assembly.GetExportedTypes();
+        }
+        catch (ReflectionTypeLoadException ex)
+        {
+            Console.WriteLine($"⚠ Warning: Could not load all types from {assembly.FullName}");
+
+            foreach (var loaderEx in ex.LoaderExceptions)
+                Console.WriteLine("  - " + loaderEx?.Message);
+
+            return ex.Types.Where(t => t != null).ToArray(); // Return the types that loaded
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"⛔ Failed to load types from {assembly.FullName}: {ex.Message}");
+            return Array.Empty<Type>();
+        }
+    }
+}
+
